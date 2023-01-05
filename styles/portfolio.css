@@ -20,12 +20,13 @@
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat:no-repeat;
     background-position: bottom right,left;
+    background-size: contain;
     }
 /* header and navigation styles */
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 100px;
+   padding: 50px 100px;
 } 
 .nav-title {
     font-weight: 800;
@@ -150,11 +151,7 @@ section{
 .resume .description{
     color: #757575;
 }
-.resume-button{
-    color: #FD6E0A;
-    margin-top: 50px;
-    text-align: center;
-}
+
 /* contact styles */
 .contact{
     display: flex;
@@ -178,4 +175,16 @@ input{
 }
 .contact a{
     text-decoration: none;
+}
+.button-primary{
+    color: #FD6E0A;
+    background-color:#474747 ;
+    text-align: center;
+}
+.resume-button{
+    text-align: center;
+}
+form input,textarea{
+    padding: 20px;
+
 }
