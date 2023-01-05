@@ -97,13 +97,14 @@ section{
     display: flex;
 }
 .about .info-title{
-      font-size: 20px;
+      font-size: 18px;
       color: #757575;
 }
 .info-description{
-    font-weight: 700px;
-    font-size: 20px;
-    color: #474747;
+    
+    font-weight: 800px;
+    font-size: 15px;
+    color: #2e2d2d;
 }
 /* my skills */
 
@@ -130,13 +131,15 @@ section{
 .resume-content{
     display: flex;
     gap: 24px;
+    font-size: 25px;
 }
 .resume-item{
     margin-top: 30px;
     margin-bottom: 30px;
+    
 }
 .resume .title{
-    font-weight: 700;
+    font-weight: 900;
     font-size: 25px;
     color: #474747;
     margin-bottom: 10px;
@@ -149,7 +152,10 @@ section{
     margin-bottom: 20px;
 }
 .resume .description{
-    color: #757575;
+    
+    font-weight: 800px;
+    font-size: 18px;
+    color: #2e2d2d;
 }
 
 /* contact styles */
@@ -177,8 +183,8 @@ input{
     text-decoration: none;
 }
 .button-primary{
-    color: #FD6E0A;
-    background-color:#474747 ;
+    color: #474747;
+    background-color: #FD6E0A;
     text-align: center;
 }
 .resume-button{
